@@ -10,8 +10,9 @@ public class ThunderShock extends SpecialMove {
 
     @Override
     protected String describe() {
-        return "Thunder shock";
+        return "использует Thunder shock";
     }
+
     protected void applyOppEffects(Pokemon var1) {
         Effect effect = new Effect().chance(0.1).turns(1).condition(Status.PARALYZE);
         var1.addEffect(effect);

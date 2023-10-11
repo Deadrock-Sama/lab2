@@ -12,9 +12,13 @@ public class DragonRage extends SpecialMove {
     }
     @Override
     protected String describe() {
-        return "Dragon rage";
+        return "использует Dragon rage";
     }
-    protected void applyOppDamage(Pokemon var1) {
+    @Override
+    protected void applyOppEffects(Pokemon var1) {
+
         var1.setMod(Stat.HP, 40);
+        System.out.println("Dragon rage наносит 40 урона");
+
     }
 }

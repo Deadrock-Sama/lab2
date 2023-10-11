@@ -11,6 +11,6 @@ public class Splash extends StatusMove {
     }
     @Override
     protected String describe() {
-        return "Splash";
+        return "использует Splash";
     }
 }

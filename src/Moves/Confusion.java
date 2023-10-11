@@ -9,10 +9,11 @@ public class Confusion extends SpecialMove {
     }
     @Override
     protected String describe() {
-        return "Confusion";
+        return "использует Confusion";
     }
     @Override
     protected void applyOppEffects(Pokemon pokemon) {
         pokemon.confuse();
+        System.out.println("Покемон впадает в замешательство");
     }
 }

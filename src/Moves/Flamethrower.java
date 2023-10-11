@@ -8,10 +8,11 @@ public class Flamethrower extends SpecialMove {
     }
     @Override
     protected String describe() {
-        return "Flamethrower";
+        return "использует Flamethrower";
     }
+
     protected void applyOppEffects(Pokemon pokemon) {
-        Effect effect = (new Effect()).condition(Status.BURN).chance(0.1).turns(1);
+        Effect effect = (new Effect()).condition(Status.BURN).chance(0.5).turns(1);
         pokemon.addEffect(effect);
     }
 }

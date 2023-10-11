@@ -8,6 +8,6 @@ public class Tackle extends PhysicalMove {
     }
     @Override
     protected String describe() {
-        return "Tackle";
+        return "использует Tackle";
     }
 }

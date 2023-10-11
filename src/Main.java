@@ -12,7 +12,7 @@ public class Main {
         Pokemon wingull = new Wingull("Wingya", 1);
         Pokemon zorua = new Zorua("Zorya", 1);
         Pokemon zoroark = new Zoroark("Zor", 1);
-        Pokemon minccino = new Minccino("Dusya", 1);
+        Pokemon minccino = new Minccino("Dusya", 15);
 
 
         b.addAlly(duskull);

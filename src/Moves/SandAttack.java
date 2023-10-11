@@ -9,7 +9,7 @@ public class SandAttack extends SpecialMove {
     }
     @Override
     protected String describe() {
-        return "Sand attack";
+        return "использует Sand attack";
     }
     @Override
     protected void applyOppEffects(Pokemon pokemon) {
